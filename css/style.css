@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+header{
+    
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    flex-shrink: 0;
+    flex-grow: 1;
+    position: fixed;
+}
+
+aside{
+    width: 10%;
+    background-color: cornflowerblue;
+    height: 100vh;
+    position: fixed;
+}
+
+.main-section{
+    flex-shrink: 0;
+    height: 1000px;
+    background-color: blueviolet;
+
+
+}
+
+aside{
+
+}
+
+footer{
+    height: 70px;
+    width: 100%;
+    background-color: brown;
+    flex-shrink: 0;
+    flex-grow: 1;
+    position: fixed;
+}
