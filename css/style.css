@@ -167,7 +167,7 @@ p{
     align-items: center;
 }
 
-img{
+.homepage-images{
     max-width: 100%;
     height: auto;
 }
@@ -202,6 +202,90 @@ img{
 footer{
     height: 90px;
     width: 100%;
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(54, 52, 52);
+    flex-basis: calc(100% / 3);
 }
 
+
+.song-section{
+    flex-basis: calc(100% / 3);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-images{
+    width: 50px;
+    height: auto;
+}
+
+
+h6{
+    color: white;
+}
+
+
+.footer-p{
+    font-size: x-small;
+}
+
+.like-n-save-button{
+    display: block;
+    color: gray;
+}
+
+
+.player{
+    flex-basis: calc(100% / 3);
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px
+}
+
+
+.player-buttons{
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.utilities{
+    flex-basis: calc(100% / 3);
+
+}
+
+
+.songbar-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.songbar{
+    height: 6px;
+    width: 100px;
+    background-color:rgb(231, 127, 127);
+    border-radius: 4px;
+}
+
+
+.utilities{
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.volume-bar{
+    height: 6px;
+    min-width: 50px;
+    background-color:rgb(231, 127, 127);
+    border-radius: 4px;
+
+}
