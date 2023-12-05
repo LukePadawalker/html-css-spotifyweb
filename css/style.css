@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat';
 }
 
 
@@ -16,7 +17,7 @@
 
 
 .upper-content{
-    height: calc(100vh - 70px);
+    height: calc(100vh - 90px);
     
 }
 
@@ -27,7 +28,7 @@
 
 
 header{
-    height: 70px;
+    height: 100px;
     width: 100%;
     background-color: rgba(0,0,0,0.5);
     position: sticky;
@@ -41,6 +42,21 @@ header{
 
 
 
+.upgrade{
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 2px;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: smaller;
+    font-weight:600;
+}
+
+
 
 
 /*   sidebar   */
@@ -48,10 +64,10 @@ header{
 
 
 aside{
-    width: 50px;
+    width: 65px;
     flex-shrink: 0;
     background-color: black;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 90px);
 }
 
 
@@ -64,13 +80,37 @@ aside{
     flex-basis: 75%;
     flex-shrink: 0;
     flex-grow: 1;
-    background-color: blueviolet;
-    height: calc(100vh - 70px);
+    background-color: rgb(42, 42, 75);
+    height: calc(100vh - 90px);
     overflow: auto;
 }
 
 
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
 
+.menu{
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+li{
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size:x-small;
+    font-weight: bold;
+    color:gray;
+    flex-basis: calc(100% / 4);
+}
 
 
 /*   Footer  */
@@ -78,7 +118,7 @@ aside{
 
 
 footer{
-    height: 70px;
+    height: 90px;
     width: 100%;
-    background-color: brown;
+    background-color: rgb(75, 75, 75);
 }
