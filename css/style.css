@@ -69,7 +69,30 @@ aside{
 }
 
 .sidebar-element{
-    padding: 15px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.upper-sidebar-element{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.lower-sidebar-element{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.download-icon{
+    width: 20px;
+    height: 20px;
 }
 
 
@@ -181,3 +204,4 @@ footer{
     width: 100%;
     background-color: rgb(75, 75, 75);
 }
+
