@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@100;300;400;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@100;300;400;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
     <title>Document</title>
@@ -14,34 +14,126 @@
 <body>
     <main>
         <div class="upper-content flex">
-            <aside></aside>
+            <aside>
+                <div class="sidebar-container">
+                    <ul class="upper-list">
+                        <li class="sidebar-element">
+                            <a href="">
+                                <img src="./img/logo-small.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="sidebar-element">
+                            <a href="">
+                                <img src="./img/home.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="sidebar-element">
+                            <a href="">
+                                <img src="./img/search.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="sidebar-element">
+                            <a href="">
+                                <img src="./img/libreria.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </aside>
             <div class="main-section">
                 <header>
                     <a href="" class="upgrade">Effettua l'upgrade</a>
                 </header>
                 <div class="container">
                     <ul class="menu flex">
-                        <li>
+                        <li class="main-menu-element">
                             <p>In evidenza</p>
                         </li>
-                        <li>
+                        <li class="main-menu-element">
                             <p>Podcast</p>
                         </li>
-                        <li>
+                        <li class="main-menu-element">
                             <p>Classifiche</p>
                         </li>
-                        <li>
+                        <li class="main-menu-element">
                             <p>Generi e mood</p>
                         </li>
-                        <li>
+                        <li class="main-menu-element">
                             <p>Nuove Uscite</p>
                         </li>
-                        <li>
-                            <p>Scopri
-    
-                            </p>
+                        <li class="main-menu-element">
+                            <p>Scopri</p>
                         </li>
                     </ul>
+
+                    <h2>Recently Played</h2>
+
+
+                    <div class="card-container flex">
+                        <div class="card">
+                            <img src="./img/metal_lifting.jpg" alt="">
+                            <h5 class="subtitle">Heavy Metal</h5>
+                            <p class="description">Subtitle</p>
+                        </div>
+                        <div class="card">
+                            <img src="./img/stranger.jpeg" alt="">
+                            <h5 class="subtitle">Stranger Things, Vol 1 (a Netflix Original Series Soundtrack)</h5>
+                            <p class="description">Kyle Dixon & Michael Stein</p>
+                        </div>
+                        <div class="card">
+                            <img src="./img/aquietplace.jpeg" alt="">
+                            <h5 class="subtitle">A quiet place</h5>
+                            <p class="description">Subtitle</p>
+                        </div>
+                        <div class="card">
+                            <img src="./img/split.jpeg" alt="">
+                            <h5 class="subtitle">Split</h5>
+                            <p class="description">Subtitle</p>
+                        </div>
+                        <div class="card">
+                            <img src="./img/cure.jpeg" alt="">
+                            <h5 class="subtitle">A cure for wellness</h5>
+                            <p class="description">Subtitle</p>
+                        </div>
+                        <div class="card">
+                            <img src="./img/sinister.jpeg" alt="">
+                            <h5 class="subtitle">Sinister</h5>
+                            <p class="description">Christopher Nolan</p>
+                        </div>
+                    </div>
+
+                    <h2>Creato per Luca Padurariu</h2>
+                    <p class="section-description">Più ascolti, più accurati saranno i suggerimenti</p>
+
+                    <div class="card-container flex">
+                        <div class="card">
+                            <img src="./img/radar.jpeg" alt="">
+                            <h5 class="subtitle">Release Radar</h5>
+                            <p class="description"></p>
+                        </div>
+                        <div class="card">
+                            <img src="./img/mixdaily.jpeg" alt="">
+                            <h5 class="subtitle">Daily Mix 1</h5>
+                            <p class="description"></p>
+                        </div>
+                    </div>
+
+                    <h2>Artisti più popolari</h2>
+                    <p class="section-description">Più ascolti, più accurati saranno i suggerimenti</p>
+
+                    <div class="card-container flex">
+                        <div class="card">
+                            <img src="./img/youg.jpeg" alt="">
+                            <h5 class="subtitle"></h5>
+                            <p class="description"></p>
+                        </div>
+                        <div class="card">
+                            <img src="./img/einaudi.jpeg" alt="">
+                            <h5 class="subtitle">Ludovico Einaudi</h5>
+                            <p class="description"></p>
+                        </div>
+                    </div>
 
                 </div>
             </div>
