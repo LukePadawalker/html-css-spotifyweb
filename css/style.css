@@ -5,48 +5,80 @@
 }
 
 
-.wrapper{
-    display: flex;
-    flex-direction: column;
 
+/*   Utilities   */
+
+
+
+.flex{
+    display: flex;
 }
+
+
+.upper-content{
+    height: calc(100vh - 70px);
+    
+}
+
+
+
+/*  header  */
 
 
 
 header{
-    
     height: 70px;
     width: 100%;
     background-color: rgba(0,0,0,0.5);
-    flex-shrink: 0;
-    flex-grow: 1;
-    position: fixed;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
+
+
+
+
+
+/*   sidebar   */
+
+
 
 aside{
     width: 50px;
+    flex-shrink: 0;
     background-color: black;
-    height: 100vh;
-    position: fixed;
+    height: calc(100vh - 70px);
 }
+
+
+
+/*   Main section  */
+
+
 
 .main-section{
+    flex-basis: 75%;
     flex-shrink: 0;
-    height: 1000px;
+    flex-grow: 1;
     background-color: blueviolet;
+    height: calc(100vh - 70px);
     overflow: auto;
-
-
 }
 
-aside{
 
-}
+
+
+
+/*   Footer  */
+
+
 
 footer{
     height: 70px;
     width: 100%;
     background-color: brown;
-    flex-shrink: 0;
-    flex-grow: 1;
 }
