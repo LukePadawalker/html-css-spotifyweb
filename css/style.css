@@ -24,7 +24,7 @@ header{
 }
 
 aside{
-    width: 10%;
+    width: 50px;
     background-color: black;
     height: 100vh;
     position: fixed;
