@@ -15,6 +15,8 @@
 <body>
     <main>
         <div class="upper-content flex">
+
+            <!--   Sidebar   -->
             <aside>
                 <div class="sidebar-element">
                     <div class="upper-sidebar-container">
@@ -54,29 +56,38 @@
                 </div>
 
             </aside>
+
+
             <div class="main-section">
+
+
+                <!--   Header   -->
                 <header>
                     <a href="" class="upgrade">Effettua l'upgrade</a>
                 </header>
+
+
+
+                <!--   Contenuto   -->
                 <div class="container">
                     <ul class="menu flex">
                         <li class="main-menu-element">
-                            <p>In evidenza</p>
+                            <p class="menu-voice">In evidenza</p>
                         </li>
                         <li class="main-menu-element">
-                            <p>Podcast</p>
+                            <p class="menu-voice">Podcast</p>
                         </li>
                         <li class="main-menu-element">
-                            <p>Classifiche</p>
+                            <p class="menu-voice">Classifiche</p>
                         </li>
                         <li class="main-menu-element">
-                            <p>Generi e mood</p>
+                            <p class="menu-voice">Generi e mood</p>
                         </li>
                         <li class="main-menu-element">
-                            <p>Nuove Uscite</p>
+                            <p class="menu-voice">Nuove Uscite</p>
                         </li>
                         <li class="main-menu-element">
-                            <p>Scopri</p>
+                            <p class="menu-voice">Scopri</p>
                         </li>
                     </ul>
 
@@ -85,11 +96,17 @@
 
                     <div class="card-container flex">
                         <div class="card">
-                            <img src="./img/metal_lifting.jpg" alt="" class="homepage-images">
+                            <div class="image-container flex">
+                                <img src="./img/metal_lifting.jpg" alt="" class="homepage-images">
+                                <div class="player-hover">
+                                    <i class="fa-regular fa-circle-play hover-play-icon"></i>
+                                </div>
+                            </div>
                             <h5 class="subtitle">Heavy Metal</h5>
                             <p class="description">Subtitle</p>
                         </div>
                         <div class="card">
+                            <div class="image-container"></div>
                             <img src="./img/stranger.jpeg" alt="" class="homepage-images">
                             <h5 class="subtitle">Stranger Things, Vol 1 (a Netflix Original Series Soundtrack)</h5>
                             <p class="description">Kyle Dixon & Michael Stein</p>
@@ -126,7 +143,7 @@
                             <p class="description"></p>
                         </div>
                         <div class="card">
-                            <img src="./img/mixdaily.jpeg" alt=" class="homepage-images"">
+                            <img src="./img/mixdaily.jpeg" alt="" class="homepage-images">
                             <h5 class="subtitle">Daily Mix 1</h5>
                             <p class="description"></p>
                         </div>
@@ -151,7 +168,12 @@
                 </div>
             </div>
         </div>
+
+
+        <!--   Footer   -->
         <footer class="flex">
+
+            <!--  Sezione di sinistra info canzoni-->
             <div class="song-section flex">
                 <div class="image">
                     <img src="./img/sinister.jpeg" alt="" class="footer-images">
@@ -167,6 +189,8 @@
                 </div>
             </div>
 
+
+            <!--   Sezione centrale player-->
             <div class="player flex">
                 <div class="player-buttons flex">
                     <div class="randomizer">
@@ -197,6 +221,9 @@
                 </div>
             </div>
 
+
+
+            <!--   Sezione Di destra pulsanti utili-->
             <div class="utilities flex">
                 <div class="menu-button">
                     <i class="fa-solid fa-bars"></i>
