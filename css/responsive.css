@@ -1,5 +1,110 @@
 @media screen and (min-width: 760px) {
+
+
+    a{
+        text-decoration: none;
+    }
+
+    .small-logo{
+        display: none;
+    }
+
+
+    .md-flex{
+        display: flex;
+    }
+
+    aside{
+        width: 250px;
+
+    }
+
+    .upper-list{
+        display: flex;
+        flex-direction: column;
+
+
+        
+
+    }
+
+
+    .square{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        background-color: gray;
+    }
+
+    .md-screen-show{
+        display: block;
+    }
+
+
+    .homepage-images{
+        width: 5%;
+    }
+
+    .upper-sidebar-element{
+        width: 100%;
+    }
+
+    .sidebar-button{
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .sidebar-images{
+        width: 15%;
+    }
+
+
+    .playlist-element{
+        padding-top: 20px;
+        display: flex;
+        padding-left: 15px;
+        padding-right: 15px;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .fa-plus{
+        justify-content: center;
+        align-items: center;
+
+    }
+    .main-section{
+        flex-basis: 60%;
+    }
+
+
+    .card-container{
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
     
+    
+    .card{
+        min-height: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.2s;
+        flex-grow: 1;
+        
+    }
+    
+
+    
+ 
+
+
 
     
 }
