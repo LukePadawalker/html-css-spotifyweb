@@ -163,9 +163,7 @@
 
     .card-container{
         flex-wrap: nowrap;
-        flex-shrink: 1;
         flex-grow: 0;
-        justify-content: flex-start;
-    }
+        justify-content: flex-start;    }
     
 }
