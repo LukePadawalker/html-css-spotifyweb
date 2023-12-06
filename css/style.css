@@ -137,7 +137,7 @@ aside{
 .container{
     min-width: 92%;
     margin: 0 auto;
-    padding-top: 10px;
+    padding: 30px;
 }
 
 .menu{
@@ -188,7 +188,6 @@ p{
     justify-content: flex-start;
     flex-wrap: wrap;
     gap: 10px;
-    padding-left: 10px;
     
 }
 

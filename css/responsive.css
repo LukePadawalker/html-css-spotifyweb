@@ -16,16 +16,13 @@
 
     aside{
         width: 250px;
+        position: relative;
 
     }
 
     .upper-list{
         display: flex;
         flex-direction: column;
-
-
-        
-
     }
 
 
@@ -45,6 +42,13 @@
 
     .homepage-images{
         width: 5%;
+    }
+
+    .sidebar-element{
+        height: calc(100vh - 90px);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .upper-sidebar-element{
@@ -99,6 +103,40 @@
         flex-grow: 1;
         
     }
+
+
+    .playlist-list{
+        overflow: auto;
+        max-height: 30%;
+        display: block;
+        padding: 30px;
+        list-style-type: none;
+    }
+
+    .new-playlist{
+        padding-bottom: 30px;
+    }
+
+    .lower-sidebar-container{
+        position: relative;
+        bottom: 0;
+    }
+
+
+    .separator{
+        height: 1px;
+        width: 80%;
+        margin: 0 auto;
+        background-color: gray;
+        margin-bottom: 10px;
+    }
+
+    .lower-sidebar-element{
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+
     
 
     
